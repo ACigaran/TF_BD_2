@@ -1,1 +1,0 @@
-Aca vamos a crear el backend-frontend que consuma la bd.
