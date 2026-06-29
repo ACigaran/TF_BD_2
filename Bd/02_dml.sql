@@ -61,7 +61,7 @@ INSERT INTO LOCALIDAD (nombre, tipo_localidad, id_departamento) VALUES
 ('Paysandú',            'Ciudad',  5),
 ('Rivera',              'Ciudad',  6),
 ('Colonia del Sacramento','Ciudad',7),
-('Trinidad',            'Ciudad',  8);
+('Trinidad',            'Ciudad',  8); 
 
 INSERT INTO ELECCION (nombre, fecha, estado, id_tipo_eleccion) VALUES
 ('Elecciones Nacionales 2024',        '2024-10-27', 'Finalizada',  1),
@@ -80,6 +80,7 @@ INSERT INTO CANDIDATO (ci, credencial_civica, nombre_completo, id_partido) VALUE
 ('1.111.888-9', 'CAND007', 'Pablo Mieres Gómez',          4),
 ('1.111.999-0', 'CAND008', 'Guido Manini Ríos Ballestrino',5),
 ('2.222.111-3', 'CAND009', 'Mario Bergara Caffaro',       1),
+('2.222.333-5', 'CAND010', 'Jorge Larrañaga Ríos',        2); 
 
 INSERT INTO ESTABLECIMIENTO (nombre, tipo_establecimiento, direccion, id_localidad) VALUES
 ('Escuela N° 1 Artigas',          'Escuela',    'Av. 18 de Julio 1000, Montevideo',   1),
